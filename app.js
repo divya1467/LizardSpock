@@ -8,6 +8,7 @@ const paper_div=document.querySelector("#paper");
 const scissors_div=document.querySelector("#scissors");
 const lizard_div=document.querySelector("#lizard");
 const spock_div=document.querySelector("#spock");
+const start_div=document.querySelector('.start');
 function compchoice(){
     const choices=['rock','paper','scissors','lizard','spock'];
     const randomno=Math.floor(Math.random()*5);
