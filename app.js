@@ -11,6 +11,7 @@ const spock_div=document.querySelector("#spock");
 function compchoice(){
     const choices=['rock','paper','scissors','lizard','spock'];
     const randomno=Math.floor(Math.random()*5);
+    start_div.innerHTML=`computer chose ${choices[randomno]}`
     return choices[randomno];
 }
 //scissors cuts paper
