@@ -137,7 +137,13 @@ ul {
   ul li:nth-of-type(32) {
     animation-delay: 3.2s;
   }
-  
+  .start{
+    color:white;
+    font-size:40px;
+    font-family: 'VT323', monospace;
+    color: rgb(243, 173, 116);
+    text-align: center;
+  }
   @keyframes tick {
     25% {
       transform: rotate(5deg) translate(1px, 2px);
